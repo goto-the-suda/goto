@@ -1,0 +1,61 @@
+
+
+#wrap {
+  width: 96% ;
+  margin: auto;
+  background-color: #333 ;
+  color: #000 ;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-around ;
+  /* center  */
+  /* space-around  */
+  /* space-between  */
+}
+
+.record {
+  border-radius : 0 0 10pt 10pt ;
+  width : 80pt ;
+  background-color : #FFF ;
+}
+
+.c0 { background-color : #FFF ; color : #666 ; }
+.c1 { background-color : #F99 ; color : #600 ; }
+.c2 { background-color : #CC9 ; color : #330 ; }
+.c3 { background-color : #9F9 ; color : #060 ; }
+.c4 { background-color : #9CC ; color : #033 ; }
+.c5 { background-color : #99F ; color : #006 ; }
+.c6 { background-color : #C9C ; color : #303 ; }
+.c7 { background-color : #999 ; color : #000 ; }
+
+.record .image {
+  width : 100% ;
+  height : auto ;
+  vertical-align: middle;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+.record .title {
+  padding : 5pt 0 ;
+  vertical-align : middle ;
+  font-size : 20pt ;
+  text-align: center ;
+  display : block ;
+}
+
+html , body {
+  font-size : 100pt ;
+  background-color : #000 ;
+  color : #FFF ;
+  font-family : sans-serif ;
+  width: 100% ;
+}
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+  border-style: none ;
+  line-height: 1 ;
+}
+
